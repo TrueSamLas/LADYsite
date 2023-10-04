@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    margin: 0 auto;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(139, 0, 194);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+}
+
+.new h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.new .items {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.new .items .object {
+    width: 170px;
+    height: 250px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.new .items .object img {
+    width: 160px;
+    height: 160px;
+}
+
+.new .items .object span {
+    font-weight: 700;
+}
+
+.aboutus {
+    padding-bottom: 20px;
+}
+
+.aboutus h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.feedback .forms{
+    padding-left: 280px;
+}
+
+.feedback h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.feedback form {
+    width: 700px;
+    margin: 40px;
+    text-align: right;
+}
+
+.feedback form input {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 450px;
+    height: 30px;
+}
+
+.feedback .forms form p {
+    padding-right: 180px;
+    padding-bottom: 20px;
+}
+
+.feedback .forms form textarea {
+    display: flex;
+    margin-left: 230px;
+    padding-right: 260px;
+    margin-bottom: 20px;
+}
+
+.feedback .forms form button {
+    background-color: #fff;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.feedback .forms .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 360px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer p {
+    padding: 10px;
+}
